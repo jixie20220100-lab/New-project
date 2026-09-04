@@ -49,11 +49,12 @@ h1 em { color: var(--orange); font-style: normal; }
 .section-heading h2 { margin:0; font-size:clamp(52px,6vw,88px); line-height:.8; }
 .section-heading h2 span { color:var(--orange); }
 .section-heading > p:last-child { margin:0 0 3px; color:#596171; font-size:14px; }
-.feature-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:45px; }
+.feature-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:45px; }
 .feature-card { min-height:240px; padding:26px; color:white; display:flex; flex-direction:column; justify-content:flex-end; clip-path: polygon(0 0,100% 0,100% 88%,94% 100%,0 100%); background:linear-gradient(145deg,rgba(6,15,27,.2),rgba(5,14,27,.84)), var(--card); }
 .feature-card.cyan { --card:#126e7b; }
 .feature-card.orange { --card:#cb4e3b; }
 .feature-card.violet { --card:#3a356f; }
+.feature-card.lime { --card:#46634e; }
 .feature-card p,.feature-card span { margin:0; font:600 12px "Barlow Condensed"; letter-spacing:1.6px; }
 .feature-card h3 { margin:8px 0 18px; font-size:38px; line-height:.9; }
 .feature-card span { color:var(--cyan); }

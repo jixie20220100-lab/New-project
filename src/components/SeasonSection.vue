@@ -3,6 +3,7 @@ const features = [
   { number: '01', label: '新区域', title: '熔火峡谷', action: 'EXPLORE →', tone: 'cyan' },
   { number: '02', label: '新模式', title: '核心争夺', action: 'PLAY NOW →', tone: 'orange' },
   { number: '03', label: '新英雄', title: '赛拉 · 余烬', action: 'MEET SERA →', tone: 'violet' },
+  { number: '04', label: '新增英雄', title: '诺瓦 · 脉冲', action: 'MEET NOVA →', tone: 'lime' },
 ]
 </script>
 
